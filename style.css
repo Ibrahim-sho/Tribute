@@ -1,7 +1,8 @@
 body{
     color: grey;
     font-family: 'Lato', sans-serif;
-    background-color:#ebebeb;
+    background: rgb(116,76,44);
+background: linear-gradient(0deg, rgba(116,76,44,1) 0%, rgba(222,207,172,1) 65%);
 }
 h1{
     text-align: center;
