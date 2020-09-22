@@ -50,4 +50,7 @@ a{
 .social{
     list-style: none;
     display: inline-block;
+    width: 135px;
+    text-align: center;
+    
 }
