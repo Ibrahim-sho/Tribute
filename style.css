@@ -47,3 +47,7 @@ a{
     padding: 20px;
     border-radius: 5px;
 }
+.social{
+    list-style: none;
+    display: inline-block;
+}
