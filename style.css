@@ -44,6 +44,7 @@ a:hover {
     border-radius: 5px;
 }
 .social{
+
     list-style: none;
     display: inline-block;
     width: 135px;    
@@ -51,6 +52,7 @@ a:hover {
 .alignLeft{
     text-align: left; 
 }
+
 
 /* Nav */
 
