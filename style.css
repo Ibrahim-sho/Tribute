@@ -1,0 +1,49 @@
+body{
+    color: grey;
+    font-family: 'Lato', sans-serif;
+    background-color:#ebebeb;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color: #dd5555;
+}
+h2{
+    text-align: center;
+}
+table{
+    color: lightgrey;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+a{
+    color: lightgrey;
+    text-decoration: none;
+}
+.bold{
+    color: grey;
+    font-weight: bold;
+}
+.profil{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ebebeb;
+}
+.box{
+    background-color: white;
+    max-width: 40%;
+    margin: 30px 30% 30px 30%;
+    padding: 20px;
+    border-radius: 5px;
+}
