@@ -72,6 +72,10 @@ a:hover {
 #nav li{
     float: left;
 }
+
+#nav li.right{
+    float: right;
+}
   
 #nav li a {
     display: block;
