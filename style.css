@@ -85,3 +85,106 @@ a:hover {
 .active {
   background-color: #4CAF50;
 }
+
+/* index hover */
+
+#noHover a:hover{
+    color: lightgray;
+}
+.profilehoveribra {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ebebeb;
+    background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Ibrahim.jpg?raw=true);
+    background-size: contain;
+    position: relative;
+}
+.profilehoveroli {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ebebeb;
+    background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Olivier.jpg?raw=true);
+    background-size: contain;
+    position: relative;
+}
+.profilehoversyl {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ebebeb;
+    background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Sylvain.jpg?raw=true);
+    background-size: contain;
+    position: relative;
+}
+.profilehoverthib {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ebebeb;
+    background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Thibault.png?raw=true);
+    background-size: contain;
+    position: relative;
+}
+.overlay {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: darkslategrey;
+    border-radius: 50%;
+}
+.profilehoveribra:hover .overlay{
+    opacity: 0.75;
+}
+.profilehoveroli:hover .overlay{
+    opacity: 0.75;
+}
+.profilehoversyl:hover .overlay{
+    opacity: 0.75;
+}
+.profilehoverthib:hover .overlay{
+    opacity: 0.75;
+}
+.textoverlay {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40%;
+    padding-bottom: 40%;
+    font-weight: bold;
+}
