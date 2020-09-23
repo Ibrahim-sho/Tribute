@@ -1,7 +1,9 @@
 body{
     color: grey;
     font-family: 'Lato', sans-serif;
-    background-color:#ebebeb;
+    background: rgb(116,76,44);
+    background: linear-gradient(0deg, rgba(116,76,44,1) 0%, rgba(222,207,172,1) 65%);
+    background-attachment: fixed;
 }
 h1{
     text-align: center;
@@ -11,18 +13,12 @@ h1{
 h2{
     text-align: center;
 }
-table{
-    color: lightgrey;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
 a{
     color: lightgrey;
     text-decoration: none;
+}
+a:hover {
+    color: rgb(11, 72, 165);
 }
 .bold{
     color: grey;
@@ -41,9 +37,60 @@ a{
     border-color: #ebebeb;
 }
 .box{
+    box-shadow:5px 5px rgba(128,128,128,.2);
+    text-align: center;
     background-color: white;
     max-width: 40%;
     margin: 30px 30% 30px 30%;
     padding: 20px;
     border-radius: 5px;
 }
+.social{
+
+    list-style: none;
+    display: inline-block;
+    width: 135px;    
+}
+.alignLeft{
+    text-align: left; 
+}
+
+
+/* Nav */
+
+#nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+  
+#nav li{
+    float: left;
+}
+  
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+#nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.marginNav {
+    margin-top: 20px;
+  }
+
