@@ -4,7 +4,6 @@ body{
     background: rgb(116,76,44);
     background: linear-gradient(0deg, rgba(116,76,44,1) 0%, rgba(222,207,172,1) 65%);
     background-attachment: fixed;
-
 }
 h1{
     text-align: center;
@@ -38,6 +37,7 @@ a:hover {
     border-color: #ebebeb;
 }
 .box{
+    box-shadow:5px 5px rgba(128,128,128,.2);
     text-align: center;
     background-color: white;
     max-width: 40%;
@@ -55,3 +55,33 @@ a:hover {
     text-align: left; 
 }
 
+
+/* Nav */
+
+#nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+#nav li{
+    float: left;
+}
+  
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+#nav li a:hover:not(.active) {
+  background-color: #111;
+}
+  
+.active {
+  background-color: #4CAF50;
+}
