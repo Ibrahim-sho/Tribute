@@ -1,179 +1,292 @@
 body{
-    color: grey;
-    font-family: 'Lato', sans-serif;
-    background: rgb(116,76,44);
-    background: linear-gradient(0deg, rgba(116,76,44,1) 0%, rgba(222,207,172,1) 65%);
-    background-attachment: fixed;
+  color: grey;
+  font-family: 'Lato', sans-serif;
+  background: rgb(116,76,44);
+  background: linear-gradient(0deg, rgba(116,76,44,1) 0%, rgba(222,207,172,1) 65%);
+  background-attachment: fixed;
 }
 h1{
-    text-align: center;
-    font-weight: bolder;
-    color: #dd5555;
+  text-align: center;
+  font-weight: bolder;
+  color: #dd5555;
 }
 h2{
-    text-align: center;
+  text-align: center;
 }
 a{
-    color: lightgrey;
-    text-decoration: none;
+  color: lightgrey;
+  text-decoration: none;
 }
 a:hover {
-    color: rgb(11, 72, 165);
+  color: rgb(11, 72, 165);
 }
 .bold{
-    color: grey;
-    font-weight: bold;
+  color: grey;
+  font-weight: bold;
 }
 .profil{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #ebebeb;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ebebeb;
 }
 .box{
-    box-shadow:5px 5px rgba(128,128,128,.2);
-    text-align: center;
-    background-color: white;
-    max-width: 40%;
-    margin: 30px 30% 30px 30%;
-    padding: 20px;
-    border-radius: 5px;
+  box-shadow:5px 5px rgba(128,128,128,.2);
+  text-align: center;
+  background-color: white;
+  max-width: 40%;
+  margin: 30px 30% 30px 30%;
+  padding: 20px;
+  border-radius: 5px;
 }
 .social{
-
-    list-style: none;
-    display: inline-block;
-    width: 135px;    
+  list-style: none;
+  display: inline-block;
+  width: 135px;    
 }
 .alignLeft{
-    text-align: left; 
+  text-align: left; 
 }
 
 
 /* Nav */
 
 #nav{
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
+  z-index: 1;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
 }
-  
+
 #nav li{
-    float: left;
+  float: left;
 }
-  
+
+#nav li.right{
+  float: right;
+}
+
 #nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-  
+
 #nav li a:hover:not(.active) {
-    background-color: #111;
+  background-color: #111;
 }
 
 .active {
-    background-color: #4CAF50;
+  background-color: #4CAF50;
+}
+.marginNav {
+  margin-top: 20px;
 }
 
-.marginNav {
-    margin-top: 20px;
-  }
 
-  /* Newsletter */
+/* Newsletter */
 
 .formMargin {
 
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 /* IBRAHIM CSS */
 
 .fotoibra{
 
-    background-image: url(https://d2x51gyc4ptf2q.cloudfront.net/content/uploads/2020/06/26134620/Paolo-Maldini-Football365.jpg);
-    background-size: cover;
-    width: 400px;
-    height: 200px;
-    background-position: center;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 21%;
-    border-style: solid;
-    border-color: rgb(194, 0, 0) rgb(4, 8, 4) rgb(182, 9, 9) rgb(5, 5, 3);
-    transition: border-width 0.6s linear;
-    border-width: 25px;
+  background-image: url(https://d2x51gyc4ptf2q.cloudfront.net/content/uploads/2020/06/26134620/Paolo-Maldini-Football365.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 21%;
+  border-style: solid;
+  border-color: rgb(194, 0, 0) rgb(4, 8, 4) rgb(182, 9, 9) rgb(5, 5, 3);
+  transition: border-width 0.6s linear;
+  border-width: 25px;
+}
+.fotoibra:hover { border-width: 40px; }
+
+.gallery {
+  border: 1px solid #ccc;
 }
 
-  
- .fotoibra:hover { border-width: 10px; }
+.gallery:hover {
+  border: 1px solid #777;
+}
 
- .gallery {
-    border: 1px solid #ccc;
-  }
-  
- .gallery:hover {
-    border: 1px solid #777;
-  }
-  
- .gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
- .desc {
-    padding: 15px;
-    text-align: center;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  .responsive{
+.gallery img {
+  width: 100%;
+  height: auto;
+}
 
-    box-shadow:5px 5px rgba(128,128,128,.2);
-    text-align: center;
-    background-color: white;
-    margin: 30px 30% 30px 30%;
-    padding: 20px;
-    border-radius: 5px;
-    justify-content: space-evenly;
+.desc {
+  padding: 15px;
+  text-align: center;
+}
 
 
-  }
-  
-  @media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.responsive{
+
+  box-shadow:5px 5px rgba(128,128,128,.2);
+  text-align: center;
+  background-color: white;
+  margin: 30px 30% 30px 30%;
+  padding: 20px;
+  border-radius: 5px;
+  justify-content: space-evenly;
+
+
+}
+
+
 
 /* IBRAHIM CSS FIN */
+
+
+/* CONTACT FORM */
+
+#contact input{
+  margin:5px;
+  box-shadow:5px 5px rgba(128,128,128,.2);
+}
+
+#contact textarea{
+  margin:5px;
+  box-shadow:5px 5px rgba(128,128,128,.2);
+  width: 80%;
+}
+#contact button{
+  margin-top: 5px;
+}
+
+
+/* index hover */
+
+#noHover a:hover{
+  color: lightgray;
+}
+.profilehoveribra {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ebebeb;
+  background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Ibrahim.jpg?raw=true);
+  background-size: contain;
+  position: relative;
+}
+.profilehoveroli {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ebebeb;
+  background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Olivier.jpg?raw=true);
+  background-size: contain;
+  position: relative;
+}
+.profilehoversyl {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ebebeb;
+  background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Sylvain.jpg?raw=true);
+  background-size: contain;
+  position: relative;
+}
+.profilehoverthib {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ebebeb;
+  background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Thibault.png?raw=true);
+  background-size: contain;
+  position: relative;
+}
+.overlay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: darkslategrey;
+  border-radius: 50%;
+}
+.profilehoveribra:hover .overlay{
+  opacity: 0.75;
+}
+.profilehoveroli:hover .overlay{
+  opacity: 0.75;
+}
+.profilehoversyl:hover .overlay{
+  opacity: 0.75;
+
+}
+.profilehoverthib:hover .overlay{
+  opacity: 0.75;
+}
+.textoverlay {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40%;
+  padding-bottom: 40%;
+  font-weight: bold;
+}
+
+span.hoverlink {
+      position:absolute; 
+      width:100%;
+      height:100%;
+      top:0;
+      left: 0;
+      z-index: 1;
+}
