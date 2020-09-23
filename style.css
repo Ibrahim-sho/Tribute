@@ -46,7 +46,6 @@ a:hover {
     border-radius: 5px;
 }
 .social{
-
     list-style: none;
     display: inline-block;
     width: 135px;    
@@ -92,6 +91,23 @@ a:hover {
 .marginNav {
     margin-top: 20px;
   }
+
+
+/* CONTACT FORM */
+
+#contact input{
+    margin:5px;
+    box-shadow:5px 5px rgba(128,128,128,.2);
+}
+
+#contact textarea{
+    margin:5px;
+    box-shadow:5px 5px rgba(128,128,128,.2);
+    width: 80%;
+}
+#contact button{
+    margin-top: 5px;
+}
 
 /* index hover */
 
@@ -195,3 +211,4 @@ a:hover {
     padding-bottom: 40%;
     font-weight: bold;
 }
+
