@@ -93,6 +93,34 @@ a:hover {
   }
 
 
+  /* Newsletter */
+
+.formMargin {
+
+    margin-top: 25px;
+}
+
+/* IBRAHIM CSS */
+
+.fotoibra{
+
+    background-image: url(https://d2x51gyc4ptf2q.cloudfront.net/content/uploads/2020/06/26134620/Paolo-Maldini-Football365.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 21%;
+    border-style: solid;
+    border-color: rgb(194, 0, 0) rgb(4, 8, 4) rgb(182, 9, 9) rgb(5, 5, 3);
+    transition: border-width 0.6s linear;
+    border-width: 25px;
+}
+  .fotoibra:hover { border-width: 40px; }
+
+
+
 /* CONTACT FORM */
 
 #contact input{
@@ -108,6 +136,7 @@ a:hover {
 #contact button{
     margin-top: 5px;
 }
+
 
 /* index hover */
 
