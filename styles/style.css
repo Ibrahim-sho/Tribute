@@ -115,8 +115,7 @@ a:hover {
 
   background-image: url(../images/Ibrahim/Maldini2.jpg);
   background-size: cover;
-  width: 400px;
-  height: 200px;
+  width: 100%;
   background-position: center;
   margin-left: auto;
   margin-right: auto;
