@@ -163,8 +163,8 @@ a:hover {
 .CSSgal {
 	position: relative;
 	overflow: hidden;
-  height: 25%;
-  width: 465px; /* Or set a fixed height */
+  height: 100%;
+   /* Or set a fixed height */
 }
 
 /* SLIDER */
