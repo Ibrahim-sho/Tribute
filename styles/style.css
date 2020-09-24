@@ -124,9 +124,9 @@ a:hover {
   border-style: solid;
   border-color: rgb(194, 0, 0) rgb(4, 8, 4) rgb(182, 9, 9) rgb(5, 5, 3);
   transition: border-width 0.6s linear;
-  border-width: 25px;
+  border-width: 7px;
 }
-.fotoibra:hover { border-width: 40px; }
+.fotoibra:hover { border-width: 21px; }
 
 .gallery {
   border: 1px solid #ccc;
