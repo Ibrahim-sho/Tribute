@@ -113,9 +113,9 @@ a:hover {
 
 .fotoibra{
 
-  background-image: url(https://d2x51gyc4ptf2q.cloudfront.net/content/uploads/2020/06/26134620/Paolo-Maldini-Football365.jpg);
+  background-image: url(../images/Ibrahim/Maldini2.jpg);
   background-size: cover;
-  width: 100%;
+  width: 400px;
   height: 200px;
   background-position: center;
   margin-left: auto;
@@ -124,9 +124,9 @@ a:hover {
   border-style: solid;
   border-color: rgb(194, 0, 0) rgb(4, 8, 4) rgb(182, 9, 9) rgb(5, 5, 3);
   transition: border-width 0.6s linear;
-  border-width: 7px;
+  border-width: 25px;
 }
-.fotoibra:hover { border-width: 25px; }
+.fotoibra:hover { border-width: 40px; }
 
 .gallery {
   border: 1px solid #ccc;
@@ -351,7 +351,7 @@ a:hover {
   border-style: solid;
   border-width: 5px;
   border-color:  #dd5555;
-  background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Ibrahim.jpg?raw=true);
+  background-image: url(../images/index/Ibrahim.jpg);
   background-size: contain;
   position: relative;
 }
@@ -368,7 +368,7 @@ a:hover {
   border-style: solid;
   border-width: 5px;
   border-color:  #dd5555;
-  background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Olivier.jpg?raw=true);
+  background-image: url(../images/index/Olivier.jpg);
   background-size: contain;
   position: relative;
 }
@@ -385,7 +385,7 @@ a:hover {
   border-style: solid;
   border-width: 5px;
   border-color:  #dd5555;
-  background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Sylvain.jpg?raw=true);
+  background-image: url(../images/index/Sylvain.jpg);
   background-size: contain;
   position: relative;
 }
@@ -402,7 +402,7 @@ a:hover {
   border-style: solid;
   border-width: 5px;
   border-color:  #dd5555;
-  background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Thibault.png?raw=true);
+  background-image: url(../images/index/Thibault.png);
   background-size: contain;
   position: relative;
 }
