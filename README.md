@@ -10,7 +10,7 @@ Notre mission de groupe consistait à créer une page Web chacun sur quelqu'un q
 
 Vous pourrez vous plonger dans différents horizons du sport, de la musique, de la cuisine et du cinéma. Merci à nos différents goûts qui nous inspirent.
 
-##EN
+## EN
 
 We all have people that inspires us. They are musicians, artists, Tech geniuses, pirates, politicians, philosophers or even our parents.
 
