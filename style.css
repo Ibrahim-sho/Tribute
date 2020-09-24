@@ -18,11 +18,11 @@ p{
   text-align: justify;
 }
 a{
-  color: lightgrey;
+  color:  darkslategray;
   text-decoration: none;
 }
 a:hover {
-  color: rgb(11, 72, 165);
+  color: lightgray;
 }
 .bold{
   color: grey;
@@ -38,12 +38,12 @@ a:hover {
   border-radius: 50%;
   border-style: solid;
   border-width: 5px;
-  border-color: #ebebeb;
+  border-color: #dd5555;
 }
 .box{
   box-shadow:5px 5px rgba(128,128,128,.2);
   text-align: center;
-  background-color: white;
+  background-color: whitesmoke;
   max-width: 40%;
   margin: 30px 30% 30px 30%;
   padding: 20px;
@@ -95,7 +95,7 @@ a:hover {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #dd5555;
 }
 .marginNav {
   margin-top: 20px;
@@ -350,7 +350,7 @@ a:hover {
   border-radius: 50%;
   border-style: solid;
   border-width: 5px;
-  border-color: #ebebeb;
+  border-color:  #dd5555;
   background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Ibrahim.jpg?raw=true);
   background-size: contain;
   position: relative;
@@ -367,7 +367,7 @@ a:hover {
   border-radius: 50%;
   border-style: solid;
   border-width: 5px;
-  border-color: #ebebeb;
+  border-color:  #dd5555;
   background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Olivier.jpg?raw=true);
   background-size: contain;
   position: relative;
@@ -384,7 +384,7 @@ a:hover {
   border-radius: 50%;
   border-style: solid;
   border-width: 5px;
-  border-color: #ebebeb;
+  border-color:  #dd5555;
   background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Sylvain.jpg?raw=true);
   background-size: contain;
   position: relative;
@@ -401,7 +401,7 @@ a:hover {
   border-radius: 50%;
   border-style: solid;
   border-width: 5px;
-  border-color: #ebebeb;
+  border-color:  #dd5555;
   background-image: url(https://github.com/SylvainDurant/Tribute/blob/master/images/index/Thibault.png?raw=true);
   background-size: contain;
   position: relative;
